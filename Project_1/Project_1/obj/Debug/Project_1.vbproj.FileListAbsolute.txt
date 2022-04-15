@@ -32,3 +32,17 @@ E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Register.resources
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.User1.resources
+D:\First Project\Studio\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.pdb
+D:\First Project\Studio\Project_1\Project_1\bin\Debug\Project_1.exe
+D:\First Project\Studio\Project_1\Project_1\bin\Debug\Project_1.pdb
+D:\First Project\Studio\Project_1\Project_1\bin\Debug\Project_1.xml
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyReference.cache
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.Register.resources
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.User1.resources
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.register_1.resources

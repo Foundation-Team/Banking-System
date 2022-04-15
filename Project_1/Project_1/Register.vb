@@ -25,7 +25,7 @@
             MsgBox("1 Loop")
             If TextBox4.Text = TextBox5.Text Then
                 MsgBox("2 Loop")
-                d.adddata("insert into User_Data (Name, Password, Username)values('" & TextBox1.Text & " " & TextBox2.Text & "','" & TextBox4.Text & "' ,'" & TextBox3.Text & "'  )")
+                d.adddata("insert into login_p (f_name, l_name,Passwd, mob_no)values('" & TextBox1.Text & " " & TextBox2.Text & "','" & TextBox4.Text & "' ,'" & TextBox3.Text & "'  )")
                 MessageBox.Show("Register Successful")
                 Me.Visible = False
                 Form1.Show()

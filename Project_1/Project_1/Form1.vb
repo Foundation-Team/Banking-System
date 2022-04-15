@@ -1,7 +1,7 @@
 ﻿Public Class Form1
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-        Register.Show()
-        Register.Location = New Point(Me.Location.X, Me.Location.Y)
+        register_1.Show()
+        register_1.Location = New Point(Me.Location.X, Me.Location.Y)
         Me.Visible = False
     End Sub
 
@@ -15,7 +15,7 @@
 
         Dim d As New DAOClass
         Dim obj As SqlClient.SqlDataReader
-        obj = d.getdata("select Password from User_data where Username = '" & TextBox1.Text & "'")
+        obj = d.getdata("select Passwd from login_p where mob_no = '" & TextBox1.Text & "'")
 
         If TextBox1.Text = "" Or TextBox2.Text = "" Then
             MsgBox("Please Enter Id and Password ")
