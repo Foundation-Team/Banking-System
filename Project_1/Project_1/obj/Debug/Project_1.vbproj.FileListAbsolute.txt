@@ -46,3 +46,7 @@ D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.Register.resourc
 D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.User1.resources
 D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
 D:\First Project\Studio\Project_1\Project_1\obj\Debug\Project_1.register_1.resources
+D:\Banking System\Studio\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\Banking System\Studio\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\Banking System\Studio\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\Banking System\Studio\Project_1\Project_1\obj\Debug\Project_1.pdb
