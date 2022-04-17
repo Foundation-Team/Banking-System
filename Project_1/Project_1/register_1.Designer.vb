@@ -81,22 +81,23 @@ Partial Class register_1
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel1.Location = New System.Drawing.Point(99, 127)
+        Me.Panel1.Location = New System.Drawing.Point(101, 98)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(812, 687)
+        Me.Panel1.Size = New System.Drawing.Size(812, 573)
         Me.Panel1.TabIndex = 0
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.MediumTurquoise
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(315, 599)
+        Me.Button1.Location = New System.Drawing.Point(47, 518)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(216, 50)
+        Me.Button1.Size = New System.Drawing.Size(158, 39)
         Me.Button1.TabIndex = 31
         Me.Button1.Text = "Register"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'MaskedTextBox4
         '
@@ -173,9 +174,9 @@ Partial Class register_1
         Me.Label12.Location = New System.Drawing.Point(43, 449)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(115, 20)
+        Me.Label12.Size = New System.Drawing.Size(111, 20)
         Me.Label12.TabIndex = 22
-        Me.Label12.Text = "Pascal Code"
+        Me.Label12.Text = "Postal Code"
         '
         'TextBox10
         '
@@ -329,11 +330,11 @@ Partial Class register_1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(397, 43)
+        Me.Label1.Font = New System.Drawing.Font("Meiryo UI", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(408, 30)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(220, 58)
+        Me.Label1.Size = New System.Drawing.Size(245, 64)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Register"
         '
