@@ -82,7 +82,7 @@ Partial Class register_1
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(101, 98)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(812, 573)
         Me.Panel1.TabIndex = 0
@@ -92,7 +92,7 @@ Partial Class register_1
         Me.Button1.BackColor = System.Drawing.Color.MediumTurquoise
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(47, 518)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(158, 39)
         Me.Button1.TabIndex = 31
@@ -103,9 +103,11 @@ Partial Class register_1
         '
         Me.MaskedTextBox4.BeepOnError = True
         Me.MaskedTextBox4.Location = New System.Drawing.Point(47, 473)
-        Me.MaskedTextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaskedTextBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.MaskedTextBox4.Mask = "000-000"
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
+        Me.MaskedTextBox4.ResetOnPrompt = False
+        Me.MaskedTextBox4.ResetOnSpace = False
         Me.MaskedTextBox4.Size = New System.Drawing.Size(105, 26)
         Me.MaskedTextBox4.TabIndex = 30
         '
@@ -113,7 +115,7 @@ Partial Class register_1
         '
         Me.MaskedTextBox3.BeepOnError = True
         Me.MaskedTextBox3.Location = New System.Drawing.Point(433, 289)
-        Me.MaskedTextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaskedTextBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.MaskedTextBox3.Mask = "LLLLLL000"
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
         Me.MaskedTextBox3.PromptChar = Global.Microsoft.VisualBasic.ChrW(32)
@@ -123,7 +125,7 @@ Partial Class register_1
         'MaskedTextBox2
         '
         Me.MaskedTextBox2.Location = New System.Drawing.Point(47, 289)
-        Me.MaskedTextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaskedTextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.MaskedTextBox2.Mask = "LLLLLL000"
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
         Me.MaskedTextBox2.PromptChar = Global.Microsoft.VisualBasic.ChrW(32)
@@ -133,7 +135,7 @@ Partial Class register_1
         'MaskedTextBox1
         '
         Me.MaskedTextBox1.Location = New System.Drawing.Point(433, 212)
-        Me.MaskedTextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaskedTextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.MaskedTextBox1.Mask = "  /  /    "
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
         Me.MaskedTextBox1.PromptChar = Global.Microsoft.VisualBasic.ChrW(32)
@@ -145,7 +147,7 @@ Partial Class register_1
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Male", "Female"})
         Me.ComboBox1.Location = New System.Drawing.Point(47, 212)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(143, 28)
         Me.ComboBox1.TabIndex = 26
@@ -153,7 +155,7 @@ Partial Class register_1
         'TextBox12
         '
         Me.TextBox12.Location = New System.Drawing.Point(433, 473)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(307, 26)
         Me.TextBox12.TabIndex = 25
@@ -181,7 +183,7 @@ Partial Class register_1
         'TextBox10
         '
         Me.TextBox10.Location = New System.Drawing.Point(433, 366)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(307, 26)
         Me.TextBox10.TabIndex = 21
@@ -199,7 +201,7 @@ Partial Class register_1
         'TextBox9
         '
         Me.TextBox9.Location = New System.Drawing.Point(47, 366)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(288, 58)
@@ -258,7 +260,7 @@ Partial Class register_1
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(433, 135)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(307, 26)
         Me.TextBox4.TabIndex = 9
@@ -276,7 +278,7 @@ Partial Class register_1
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(47, 135)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(288, 26)
         Me.TextBox3.TabIndex = 5
@@ -294,7 +296,7 @@ Partial Class register_1
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(433, 60)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(307, 26)
         Me.TextBox2.TabIndex = 3
@@ -312,7 +314,7 @@ Partial Class register_1
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(47, 60)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(288, 26)
         Me.TextBox1.TabIndex = 1
@@ -347,7 +349,7 @@ Partial Class register_1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "register_1"
         Me.Text = "register_1"
         Me.Panel1.ResumeLayout(False)
