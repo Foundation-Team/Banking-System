@@ -12,30 +12,19 @@
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-        Dim d As New DAOClass
         Dim obj As SqlClient.SqlDataReader
-        obj = d.getdata("select Passwd from login_p where mob_no = '" & TextBox1.Text & "'")
+        Dim d As New DAOClass
 
-        If TextBox1.Text = "" Or TextBox2.Text = "" Then
-            MsgBox("Please Enter Id and Password ")
-        ElseIf IsNumeric(TextBox1.Text) Then
-            If obj.Read Then
-                If obj.Item(0) = TextBox2.Text Then
-                    'MessageBox.Show("Login Successful")
-                    Panel1.Visible = True
-                    Timer1.Start()
-                Else
-                    MsgBox("Wrong Password")
-                End If
-            Else
-                MsgBox("Login Unsuccessful")
+        obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
+
+        If obj.Read() Then
+            If obj.Item(0) = TextBox2.Text Then
+                User1.Show()
+                User1.
+        ListBox1.Items.Insert(1, TextBox1.Text & "                                                          " & TimeOfDay)
             End If
-        Else
-            MessageBox.Show("Please Enter Only Number...!", "Error")
-            TextBox1.Focus()
-            TextBox1.Clear()
         End If
+
     End Sub
 
 
