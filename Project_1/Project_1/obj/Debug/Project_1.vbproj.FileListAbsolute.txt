@@ -64,3 +64,17 @@ E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Registe
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.register_1.resources
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.User1.resources
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+D:\Banking_system\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.pdb
+D:\Banking_system\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe
+D:\Banking_system\Banking-System\Project_1\Project_1\bin\Debug\Project_1.pdb
+D:\Banking_system\Banking-System\Project_1\Project_1\bin\Debug\Project_1.xml
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyReference.cache
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Register.resources
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.register_1.resources
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.User1.resources
+D:\Banking_system\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
