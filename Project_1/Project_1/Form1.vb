@@ -31,10 +31,10 @@
                     User1.TableLayoutPanel1.Controls.Add(TextBox1, 0, 1)
                     User1.TableLayoutPanel1.Controls.Add(TextBox2, 1, 1)
                 Else
-                    'ErrorProvider1.SetError(TextBox2, "Invalid Password")
+                    ErrorProvider1.SetError(TextBox2, "Invalid Password")
                 End If
             Else
-                'ErrorProvider1.SetError(TextBox1, "Invalid Username")
+                ErrorProvider1.SetError(TextBox1, "Invalid Username")
 
             End If
         End If
