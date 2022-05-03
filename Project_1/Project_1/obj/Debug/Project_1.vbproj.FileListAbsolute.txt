@@ -68,3 +68,7 @@ D:\Banking System\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe.con
 D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.exe
 D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.xml
 D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.pdb
+E:\Banking\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe.config
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.exe
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.xml
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.pdb
