@@ -22,8 +22,18 @@ Partial Class New_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'New_Form
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Coral
+        Me.ClientSize = New System.Drawing.Size(752, 583)
+        Me.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Name = "New_Form"
         Me.Text = "New_Form"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
