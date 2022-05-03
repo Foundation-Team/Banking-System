@@ -64,3 +64,7 @@ E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Registe
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.register_1.resources
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.User1.resources
 E:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+D:\Banking System\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.pdb
