@@ -131,6 +131,7 @@ Partial Class register_1
         Me.MaskedTextBox3.Mask = "00000"
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
         Me.MaskedTextBox3.PromptChar = Global.Microsoft.VisualBasic.ChrW(32)
+        Me.MaskedTextBox3.ReadOnly = True
         Me.MaskedTextBox3.Size = New System.Drawing.Size(231, 22)
         Me.MaskedTextBox3.TabIndex = 8
         Me.MaskedTextBox3.ValidatingType = GetType(Integer)
@@ -341,12 +342,11 @@ Partial Class register_1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(768, 609)
+        Me.ClientSize = New System.Drawing.Size(768, 578)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "register_1"
-        Me.Text = "register_1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
