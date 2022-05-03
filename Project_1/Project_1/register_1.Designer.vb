@@ -57,7 +57,7 @@ Partial Class register_1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Panel1.BackColor = System.Drawing.Color.PaleVioletRed
         Me.Panel1.Controls.Add(Me.ComboBox2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.MaskedTextBox4)
