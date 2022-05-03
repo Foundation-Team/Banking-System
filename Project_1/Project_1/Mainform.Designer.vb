@@ -37,11 +37,12 @@ Partial Class Mainform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ClientSize = New System.Drawing.Size(880, 486)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Mainform"
-        Me.Text = "Mainform"
+        Me.Text = "tus"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
