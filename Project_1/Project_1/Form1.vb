@@ -16,8 +16,8 @@
         Dim d As New DAOClass
 
         If TextBox1.Text = "" And TextBox2.Text = "" Then
-            'ErrorProvider1.SetError(TextBox1, "Enter Valid Username")
-            'ErrorProvider1.SetError(TextBox2, "Enter Valid Password")
+            ErrorProvider1.SetError(TextBox1, "Enter Valid Username")
+            ErrorProvider1.SetError(TextBox2, "Enter Valid Password")
 
         Else
             obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
