@@ -15,13 +15,27 @@
         Dim obj As SqlClient.SqlDataReader
         Dim d As New DAOClass
 
-        obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
+        If TextBox1.Text = "" And TextBox2.Text = "" Then
+            'ErrorProvider1.SetError(TextBox1, "Enter Valid Username")
+            'ErrorProvider1.SetError(TextBox2, "Enter Valid Password")
 
-        If obj.Read() Then
-            If obj.Item(0) = TextBox2.Text Then
-                User1.Show()
-                User1.
-        ListBox1.Items.Insert(1, TextBox1.Text & "                                                          " & TimeOfDay)
+        Else
+            obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
+
+            If obj.Read() Then
+                If obj.Item(0) = TextBox2.Text Then
+                    Timer1.Start()
+                    User1.Show()
+                    User1.TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 50%))
+
+                    User1.TableLayoutPanel1.Controls.Add(TextBox1, 0, 1)
+                    User1.TableLayoutPanel1.Controls.Add(TextBox2, 1, 1)
+                Else
+                    'ErrorProvider1.SetError(TextBox2, "Invalid Password")
+                End If
+            Else
+                'ErrorProvider1.SetError(TextBox1, "Invalid Username")
+
             End If
         End If
 
