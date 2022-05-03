@@ -49,8 +49,8 @@ Partial Class New_Form
         'LogToolStripMenuItem
         '
         Me.LogToolStripMenuItem.Name = "LogToolStripMenuItem"
-        Me.LogToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
-        Me.LogToolStripMenuItem.Text = "Log"
+        Me.LogToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.LogToolStripMenuItem.Text = "Log-In"
         '
         'AboutUsToolStripMenuItem
         '
