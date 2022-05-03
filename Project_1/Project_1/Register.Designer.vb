@@ -116,6 +116,7 @@ Partial Class Register
         Me.TextBox4.Location = New System.Drawing.Point(190, 260)
         Me.TextBox4.MaxLength = 14
         Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(187, 22)
         Me.TextBox4.TabIndex = 410
         Me.TextBox4.WordWrap = False
