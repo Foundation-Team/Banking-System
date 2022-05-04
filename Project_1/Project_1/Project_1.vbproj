@@ -125,6 +125,12 @@
     <Compile Include="User.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="World.Designer.vb">
+      <DependentUpon>World.vb</DependentUpon>
+    </Compile>
+    <Compile Include="World.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -139,6 +145,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="New_Form.resx">
+      <DependentUpon>New_Form.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="World.resx">
+      <DependentUpon>World.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
