@@ -80,10 +80,16 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mainform.Designer.vb">
-      <DependentUpon>Mainform.vb</DependentUpon>
+    <Compile Include="From.Designer.vb">
+      <DependentUpon>From.vb</DependentUpon>
     </Compile>
-    <Compile Include="Mainform.vb">
+    <Compile Include="From.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hello.Designer.vb">
+      <DependentUpon>Hello.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hello.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,12 +106,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="New_Form.Designer.vb">
-      <DependentUpon>New_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="New_Form.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Register.Designer.vb">
       <DependentUpon>Register.vb</DependentUpon>
@@ -136,17 +136,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mainform.resx">
-      <DependentUpon>Mainform.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="New_Form.resx">
-      <DependentUpon>New_Form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>

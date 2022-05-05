@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Register
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,233 +20,103 @@ Partial Class Register
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
-        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.HOMEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ABOUTUSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LOGINToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CONTECTUSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CHANGEPASSWORDToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LOGOUTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ADDNEWSYSTEMUSERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label8
+        'MenuStrip1
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(275, 410)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 21)
-        Me.Label8.TabIndex = 416
-        Me.Label8.Text = "Login"
+        Me.MenuStrip1.AllowDrop = True
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Lavender
+        Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HOMEToolStripMenuItem, Me.ABOUTUSToolStripMenuItem, Me.LOGINToolStripMenuItem, Me.CONTECTUSToolStripMenuItem, Me.CHANGEPASSWORDToolStripMenuItem, Me.LOGOUTToolStripMenuItem})
+        Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.ShowItemToolTips = True
+        Me.MenuStrip1.Size = New System.Drawing.Size(1184, 29)
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'Button2
+        'HOMEToolStripMenuItem
         '
-        Me.Button2.BackColor = System.Drawing.Color.Gold
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(63, 358)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(284, 39)
-        Me.Button2.TabIndex = 415
-        Me.Button2.Text = "Register"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.HOMEToolStripMenuItem.Name = "HOMEToolStripMenuItem"
+        Me.HOMEToolStripMenuItem.Size = New System.Drawing.Size(70, 25)
+        Me.HOMEToolStripMenuItem.Text = "&HOME"
         '
-        'Label7
+        'ABOUTUSToolStripMenuItem
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(83, 412)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(196, 16)
-        Me.Label7.TabIndex = 414
-        Me.Label7.Text = "Already have an account?"
+        Me.ABOUTUSToolStripMenuItem.Name = "ABOUTUSToolStripMenuItem"
+        Me.ABOUTUSToolStripMenuItem.Size = New System.Drawing.Size(105, 25)
+        Me.ABOUTUSToolStripMenuItem.Text = "&ABOUT  US"
         '
-        'Label6
+        'LOGINToolStripMenuItem
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(10, 302)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(177, 26)
-        Me.Label6.TabIndex = 413
-        Me.Label6.Text = "ConfirmPassword"
+        Me.LOGINToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ADDNEWSYSTEMUSERToolStripMenuItem})
+        Me.LOGINToolStripMenuItem.Name = "LOGINToolStripMenuItem"
+        Me.LOGINToolStripMenuItem.Size = New System.Drawing.Size(155, 25)
+        Me.LOGINToolStripMenuItem.Text = "ADMINSTRATION"
         '
-        'TextBox5
+        'CONTECTUSToolStripMenuItem
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.AliceBlue
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(190, 306)
-        Me.TextBox5.MaxLength = 14
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(187, 22)
-        Me.TextBox5.TabIndex = 412
-        Me.TextBox5.WordWrap = False
+        Me.CONTECTUSToolStripMenuItem.Name = "CONTECTUSToolStripMenuItem"
+        Me.CONTECTUSToolStripMenuItem.Size = New System.Drawing.Size(132, 25)
+        Me.CONTECTUSToolStripMenuItem.Text = "MY  ACCOUNT"
         '
-        'Label5
+        'CHANGEPASSWORDToolStripMenuItem
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(10, 260)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(101, 26)
-        Me.Label5.TabIndex = 411
-        Me.Label5.Text = "Password"
+        Me.CHANGEPASSWORDToolStripMenuItem.Name = "CHANGEPASSWORDToolStripMenuItem"
+        Me.CHANGEPASSWORDToolStripMenuItem.Size = New System.Drawing.Size(180, 25)
+        Me.CHANGEPASSWORDToolStripMenuItem.Text = "CHANGE PASSWORD"
         '
-        'TextBox4
+        'LOGOUTToolStripMenuItem
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.AliceBlue
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(190, 260)
-        Me.TextBox4.MaxLength = 14
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(187, 22)
-        Me.TextBox4.TabIndex = 410
-        Me.TextBox4.WordWrap = False
+        Me.LOGOUTToolStripMenuItem.Name = "LOGOUTToolStripMenuItem"
+        Me.LOGOUTToolStripMenuItem.Size = New System.Drawing.Size(86, 25)
+        Me.LOGOUTToolStripMenuItem.Text = "LOGOUT"
         '
-        'Label4
+        'ADDNEWSYSTEMUSERToolStripMenuItem
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(10, 194)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(170, 26)
-        Me.Label4.TabIndex = 409
-        Me.Label4.Text = "Mobile Number*"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.BackColor = System.Drawing.Color.AliceBlue
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(190, 194)
-        Me.TextBox3.MaxLength = 10
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(187, 22)
-        Me.TextBox3.TabIndex = 408
-        Me.TextBox3.WordWrap = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(10, 123)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(112, 26)
-        Me.Label3.TabIndex = 407
-        Me.Label3.Text = "Last Name"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.AliceBlue
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(190, 127)
-        Me.TextBox2.MaxLength = 15
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(187, 22)
-        Me.TextBox2.TabIndex = 406
-        Me.TextBox2.WordWrap = False
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 84)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(115, 26)
-        Me.Label2.TabIndex = 405
-        Me.Label2.Text = "First Name"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.AliceBlue
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(190, 88)
-        Me.TextBox1.MaxLength = 15
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(187, 22)
-        Me.TextBox1.TabIndex = 404
-        Me.TextBox1.WordWrap = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(123, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(156, 45)
-        Me.Label1.TabIndex = 403
-        Me.Label1.Text = "Register"
-        '
-        'ErrorProvider1
-        '
-        Me.ErrorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink
-        Me.ErrorProvider1.ContainerControl = Me
+        Me.ADDNEWSYSTEMUSERToolStripMenuItem.Name = "ADDNEWSYSTEMUSERToolStripMenuItem"
+        Me.ADDNEWSYSTEMUSERToolStripMenuItem.Size = New System.Drawing.Size(266, 26)
+        Me.ADDNEWSYSTEMUSERToolStripMenuItem.Text = "ADD NEW SYSTEM USER"
         '
         'Register
         '
-        Me.AcceptButton = Me.Button2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(392, 455)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(1184, 561)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Register"
-        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Main form"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents HOMEToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ABOUTUSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LOGINToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CONTECTUSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ADDNEWSYSTEMUSERToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CHANGEPASSWORDToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LOGOUTToolStripMenuItem As ToolStripMenuItem
 End Class

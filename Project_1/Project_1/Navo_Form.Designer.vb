@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class New_Form
+Partial Class Navo_Form
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,16 +24,13 @@ Partial Class New_Form
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'New_Form
+        'Navo_Form
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Coral
-        Me.ClientSize = New System.Drawing.Size(892, 474)
-        Me.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Name = "New_Form"
-        Me.Text = "New_Form"
+        Me.ClientSize = New System.Drawing.Size(771, 738)
+        Me.Name = "Navo_Form"
+        Me.Text = "Navo_Form"
         Me.ResumeLayout(False)
 
     End Sub

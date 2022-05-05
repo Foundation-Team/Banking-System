@@ -25,11 +25,7 @@
             If obj.Read() Then
                 If obj.Item(0) = TextBox2.Text Then
                     Timer1.Start()
-                    User1.Show()
-                    User1.TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 50%))
-
-                    User1.TableLayoutPanel1.Controls.Add(TextBox1, 0, 1)
-                    User1.TableLayoutPanel1.Controls.Add(TextBox2, 1, 1)
+                    'User1.Show()
                 Else
                     ErrorProvider1.SetError(TextBox2, "Invalid Password")
                 End If
@@ -61,11 +57,12 @@
             Label9.Text = d + "%"
         Else
             Timer1.Stop()
-            User1.Show()
+            Register.Show()
             Me.Visible = False
         End If
 
 
 
     End Sub
+
 End Class
