@@ -35,47 +35,49 @@ Partial Class User1
         Me.MenuStrip1.AllowDrop = True
         Me.MenuStrip1.BackColor = System.Drawing.Color.Lavender
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HOMEToolStripMenuItem, Me.ABOUTUSToolStripMenuItem, Me.LOGINToolStripMenuItem, Me.CONTECTUSToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
         Me.MenuStrip1.ShowItemToolTips = True
-        Me.MenuStrip1.Size = New System.Drawing.Size(1184, 29)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1579, 36)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'HOMEToolStripMenuItem
         '
         Me.HOMEToolStripMenuItem.Name = "HOMEToolStripMenuItem"
-        Me.HOMEToolStripMenuItem.Size = New System.Drawing.Size(70, 25)
+        Me.HOMEToolStripMenuItem.Size = New System.Drawing.Size(84, 32)
         Me.HOMEToolStripMenuItem.Text = "&HOME"
         '
         'ABOUTUSToolStripMenuItem
         '
         Me.ABOUTUSToolStripMenuItem.Name = "ABOUTUSToolStripMenuItem"
-        Me.ABOUTUSToolStripMenuItem.Size = New System.Drawing.Size(105, 25)
+        Me.ABOUTUSToolStripMenuItem.Size = New System.Drawing.Size(129, 32)
         Me.ABOUTUSToolStripMenuItem.Text = "&ABOUT  US"
         '
         'LOGINToolStripMenuItem
         '
         Me.LOGINToolStripMenuItem.Name = "LOGINToolStripMenuItem"
-        Me.LOGINToolStripMenuItem.Size = New System.Drawing.Size(71, 25)
+        Me.LOGINToolStripMenuItem.Size = New System.Drawing.Size(85, 32)
         Me.LOGINToolStripMenuItem.Text = "&LOGIN"
         '
         'CONTECTUSToolStripMenuItem
         '
         Me.CONTECTUSToolStripMenuItem.Name = "CONTECTUSToolStripMenuItem"
-        Me.CONTECTUSToolStripMenuItem.Size = New System.Drawing.Size(124, 25)
+        Me.CONTECTUSToolStripMenuItem.Size = New System.Drawing.Size(153, 32)
         Me.CONTECTUSToolStripMenuItem.Text = "&CONTACT  US"
         '
         'User1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.ClientSize = New System.Drawing.Size(1184, 561)
+        Me.ClientSize = New System.Drawing.Size(1579, 690)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "User1"
         Me.Text = "Banking System"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

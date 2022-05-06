@@ -83,3 +83,16 @@ D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.
 D:\Banking System\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe
 D:\Banking System\Banking-System\Project_1\Project_1\bin\Debug\Project_1.pdb
 D:\Banking System\Banking-System\Project_1\Project_1\bin\Debug\Project_1.xml
+E:\Banking\Banking-System\Project_1\Project_1\bin\Debug\Project_1.exe
+E:\Banking\Banking-System\Project_1\Project_1\bin\Debug\Project_1.pdb
+E:\Banking\Banking-System\Project_1\Project_1\bin\Debug\Project_1.xml
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyReference.cache
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Register.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.register_1.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.User1.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.World.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Cutomer_Registration.resources
+E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.From.resources

@@ -58,7 +58,8 @@
         Else
             Timer1.Stop()
             Register.Show()
-            Me.Visible = False
+            Me.Close()
+
         End If
 
 
