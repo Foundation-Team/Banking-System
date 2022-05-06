@@ -27,11 +27,11 @@ Partial Class Register
         Me.ABOUTUSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGINToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ADDNEWSYSTEMUSERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ADDNEWCUSTOMERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ADDNEWACCOUNTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CONTECTUSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CHANGEPASSWORDToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGOUTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ADDNEWCUSTOMERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ADDNEWACCOUNTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,77 +45,75 @@ Partial Class Register
         Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
         Me.MenuStrip1.ShowItemToolTips = True
-        Me.MenuStrip1.Size = New System.Drawing.Size(1579, 36)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1028, 29)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'HOMEToolStripMenuItem
         '
         Me.HOMEToolStripMenuItem.Name = "HOMEToolStripMenuItem"
-        Me.HOMEToolStripMenuItem.Size = New System.Drawing.Size(84, 32)
+        Me.HOMEToolStripMenuItem.Size = New System.Drawing.Size(70, 25)
         Me.HOMEToolStripMenuItem.Text = "&HOME"
         '
         'ABOUTUSToolStripMenuItem
         '
         Me.ABOUTUSToolStripMenuItem.Name = "ABOUTUSToolStripMenuItem"
-        Me.ABOUTUSToolStripMenuItem.Size = New System.Drawing.Size(129, 32)
+        Me.ABOUTUSToolStripMenuItem.Size = New System.Drawing.Size(105, 25)
         Me.ABOUTUSToolStripMenuItem.Text = "&ABOUT  US"
         '
         'LOGINToolStripMenuItem
         '
         Me.LOGINToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ADDNEWSYSTEMUSERToolStripMenuItem, Me.ADDNEWCUSTOMERToolStripMenuItem, Me.ADDNEWACCOUNTToolStripMenuItem})
         Me.LOGINToolStripMenuItem.Name = "LOGINToolStripMenuItem"
-        Me.LOGINToolStripMenuItem.Size = New System.Drawing.Size(192, 32)
+        Me.LOGINToolStripMenuItem.Size = New System.Drawing.Size(155, 25)
         Me.LOGINToolStripMenuItem.Text = "ADMINSTRATION"
         '
         'ADDNEWSYSTEMUSERToolStripMenuItem
         '
         Me.ADDNEWSYSTEMUSERToolStripMenuItem.Name = "ADDNEWSYSTEMUSERToolStripMenuItem"
-        Me.ADDNEWSYSTEMUSERToolStripMenuItem.Size = New System.Drawing.Size(324, 32)
+        Me.ADDNEWSYSTEMUSERToolStripMenuItem.Size = New System.Drawing.Size(266, 26)
         Me.ADDNEWSYSTEMUSERToolStripMenuItem.Text = "ADD NEW SYSTEM USER"
-        '
-        'CONTECTUSToolStripMenuItem
-        '
-        Me.CONTECTUSToolStripMenuItem.Name = "CONTECTUSToolStripMenuItem"
-        Me.CONTECTUSToolStripMenuItem.Size = New System.Drawing.Size(161, 32)
-        Me.CONTECTUSToolStripMenuItem.Text = "MY  ACCOUNT"
-        '
-        'CHANGEPASSWORDToolStripMenuItem
-        '
-        Me.CHANGEPASSWORDToolStripMenuItem.Name = "CHANGEPASSWORDToolStripMenuItem"
-        Me.CHANGEPASSWORDToolStripMenuItem.Size = New System.Drawing.Size(222, 32)
-        Me.CHANGEPASSWORDToolStripMenuItem.Text = "CHANGE PASSWORD"
-        '
-        'LOGOUTToolStripMenuItem
-        '
-        Me.LOGOUTToolStripMenuItem.Name = "LOGOUTToolStripMenuItem"
-        Me.LOGOUTToolStripMenuItem.Size = New System.Drawing.Size(104, 32)
-        Me.LOGOUTToolStripMenuItem.Text = "LOGOUT"
         '
         'ADDNEWCUSTOMERToolStripMenuItem
         '
         Me.ADDNEWCUSTOMERToolStripMenuItem.Name = "ADDNEWCUSTOMERToolStripMenuItem"
-        Me.ADDNEWCUSTOMERToolStripMenuItem.Size = New System.Drawing.Size(324, 32)
+        Me.ADDNEWCUSTOMERToolStripMenuItem.Size = New System.Drawing.Size(266, 26)
         Me.ADDNEWCUSTOMERToolStripMenuItem.Text = "ADD NEW CUSTOMER"
         '
         'ADDNEWACCOUNTToolStripMenuItem
         '
         Me.ADDNEWACCOUNTToolStripMenuItem.Name = "ADDNEWACCOUNTToolStripMenuItem"
-        Me.ADDNEWACCOUNTToolStripMenuItem.Size = New System.Drawing.Size(324, 32)
+        Me.ADDNEWACCOUNTToolStripMenuItem.Size = New System.Drawing.Size(266, 26)
         Me.ADDNEWACCOUNTToolStripMenuItem.Text = "ADD NEW ACCOUNT"
+        '
+        'CONTECTUSToolStripMenuItem
+        '
+        Me.CONTECTUSToolStripMenuItem.Name = "CONTECTUSToolStripMenuItem"
+        Me.CONTECTUSToolStripMenuItem.Size = New System.Drawing.Size(132, 25)
+        Me.CONTECTUSToolStripMenuItem.Text = "MY  ACCOUNT"
+        '
+        'CHANGEPASSWORDToolStripMenuItem
+        '
+        Me.CHANGEPASSWORDToolStripMenuItem.Name = "CHANGEPASSWORDToolStripMenuItem"
+        Me.CHANGEPASSWORDToolStripMenuItem.Size = New System.Drawing.Size(180, 25)
+        Me.CHANGEPASSWORDToolStripMenuItem.Text = "CHANGE PASSWORD"
+        '
+        'LOGOUTToolStripMenuItem
+        '
+        Me.LOGOUTToolStripMenuItem.Name = "LOGOUTToolStripMenuItem"
+        Me.LOGOUTToolStripMenuItem.Size = New System.Drawing.Size(86, 25)
+        Me.LOGOUTToolStripMenuItem.Text = "LOGOUT"
         '
         'Register
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1579, 690)
+        Me.ClientSize = New System.Drawing.Size(1028, 561)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Register"
         Me.Text = "Main form"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

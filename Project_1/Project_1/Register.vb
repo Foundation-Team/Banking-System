@@ -17,4 +17,8 @@
         From.Show()
         Me.Hide()
     End Sub
+
+    Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
+        User1.Show()
+    End Sub
 End Class

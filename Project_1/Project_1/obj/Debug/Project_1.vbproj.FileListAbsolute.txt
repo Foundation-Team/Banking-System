@@ -96,3 +96,5 @@ E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.World.resource
 E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
 E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Cutomer_Registration.resources
 E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.From.resources
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Cutomer_Registration.resources
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.From.resources
