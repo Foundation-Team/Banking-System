@@ -21,4 +21,9 @@
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
         User1.Show()
     End Sub
+
+    Private Sub CHANGEPASSWORDToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CHANGEPASSWORDToolStripMenuItem.Click
+
+        change_password.Show()
+    End Sub
 End Class

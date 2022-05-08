@@ -6,6 +6,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        TextBox1.Text = 1234
+        TextBox2.Text = 1234
         TextBox2.UseSystemPasswordChar = True
         Panel1.Visible = False
     End Sub
@@ -16,8 +18,8 @@
         Dim d As New DAOClass
 
         If TextBox1.Text = "" And TextBox2.Text = "" Then
-            ErrorProvider1.SetError(TextBox1, "Enter Valid Username")
-            ErrorProvider1.SetError(TextBox2, "Enter Valid Password")
+            ErrorProvider1.SetError(TextBox1, "Enter Username")
+            ErrorProvider1.SetError(TextBox2, "Enter Password")
 
         Else
             obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
@@ -66,4 +68,7 @@
 
     End Sub
 
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
 End Class
