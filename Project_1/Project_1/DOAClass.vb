@@ -29,7 +29,9 @@ Public Class DAOClass
         Return obj
     End Function
 
-    Public Sub adddata(ByVal STR As String)
+    Public Sub adddata(ByVal STR As String)  ' this Function Is use only Insert , update And delete 
+
+        'Dim cmd As New SqlCommand("truncate table login_p", conn)
         Dim CMD As New SqlCommand(STR, conn)
         conn.Open()
         CMD.ExecuteNonQuery()

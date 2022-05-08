@@ -97,7 +97,7 @@ Partial Class Register
         '
         Me.CHANGEPASSWORDToolStripMenuItem.Name = "CHANGEPASSWORDToolStripMenuItem"
         Me.CHANGEPASSWORDToolStripMenuItem.Size = New System.Drawing.Size(180, 25)
-        Me.CHANGEPASSWORDToolStripMenuItem.Text = "CHANGE PASSWORD"
+        Me.CHANGEPASSWORDToolStripMenuItem.Text = "&CHANGE PASSWORD"
         '
         'LOGOUTToolStripMenuItem
         '

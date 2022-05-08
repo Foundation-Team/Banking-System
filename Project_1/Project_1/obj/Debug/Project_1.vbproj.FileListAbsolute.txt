@@ -98,3 +98,4 @@ E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Cutomer_Regist
 E:\Banking\Banking-System\Project_1\Project_1\obj\Debug\Project_1.From.resources
 D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.Cutomer_Registration.resources
 D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.From.resources
+D:\Banking System\Banking-System\Project_1\Project_1\obj\Debug\Project_1.change_password.resources
