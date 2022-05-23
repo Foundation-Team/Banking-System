@@ -10,12 +10,11 @@
 
     Private Sub ADDNEWCUSTOMERToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ADDNEWCUSTOMERToolStripMenuItem.Click
         Cutomer_Registration.Show()
-        Me.Hide()
     End Sub
 
     Private Sub ADDNEWACCOUNTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ADDNEWACCOUNTToolStripMenuItem.Click
         From.Show()
-        Me.Hide()
+
     End Sub
 
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
@@ -23,7 +22,10 @@
     End Sub
 
     Private Sub CHANGEPASSWORDToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CHANGEPASSWORDToolStripMenuItem.Click
-
         change_password.Show()
+    End Sub
+
+    Private Sub CONTECTUSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CONTECTUSToolStripMenuItem.Click
+        MyAccount.Show()
     End Sub
 End Class

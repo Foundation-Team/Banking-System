@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -37,9 +37,9 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -191,6 +191,16 @@ Partial Class Form1
         Me.Label1.TabIndex = 407
         Me.Label1.Text = "Login"
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 10
+        '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.BlinkRate = 1000
+        Me.ErrorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.AliceBlue
@@ -203,16 +213,6 @@ Partial Class Form1
         Me.Button2.TabIndex = 417
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Timer1
-        '
-        Me.Timer1.Interval = 10
-        '
-        'ErrorProvider1
-        '
-        Me.ErrorProvider1.BlinkRate = 1000
-        Me.ErrorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink
-        Me.ErrorProvider1.ContainerControl = Me
         '
         'Form1
         '

@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class login
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
         register_1.Show()
         register_1.Location = New Point(Me.Location.X, Me.Location.Y)
@@ -6,8 +6,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        TextBox1.Text = 1234
-        TextBox2.Text = 1234
+        TextBox1.Text = "admin"
+        TextBox2.Text = "admin"
         TextBox2.UseSystemPasswordChar = True
         Panel1.Visible = False
     End Sub
@@ -22,21 +22,23 @@
             ErrorProvider1.SetError(TextBox2, "Enter Password")
 
         Else
+
             obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
-
-            If obj.Read() Then
-                If obj.Item(0) = TextBox2.Text Then
-                    Timer1.Start()
-                    'User1.Show()
-                Else
-                    ErrorProvider1.SetError(TextBox2, "Invalid Password")
-                End If
+            If TextBox1.Text = "admin" And TextBox2.Text = "admin" Then
+                Timer1.Start()
             Else
-                ErrorProvider1.SetError(TextBox1, "Invalid Username")
+                If obj.Read() Then
+                    If obj.Item(0) = TextBox2.Text Then
+                        'User1.Show()
+                    Else
+                        ErrorProvider1.SetError(TextBox2, "Invalid Password")
+                    End If
+                Else
+                    ErrorProvider1.SetError(TextBox1, "Invalid Username")
 
+                End If
             End If
         End If
-
     End Sub
 
 
@@ -70,5 +72,9 @@
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Forget_password.Show()
     End Sub
 End Class
