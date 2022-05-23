@@ -5,14 +5,12 @@ Public Class change_password
         Dim d As New DAOClass
 
         obj = d.getdata("Select Password from Bank_data where email = '" & TextBox1.Text & "'")
-        Try
 
+        Try
             If obj.Read() = TextBox1.Text Then
                 If TextBox2.Text = TextBox3.Text Then
-                    d.adddata("update Bank_Data set Password = '" & TextBox3.Text & "',where password = '" & TextBox1.Text & "'")
+                    d.adddata("update Bank_Data set Password = '" & TextBox3.Text & "',where email= '" & login.TextBox1.Text & "'")
                     MsgBox("Password Changed")
-
-
                 Else
                     MsgBox("Confirm Password Is not matched")
                 End If
